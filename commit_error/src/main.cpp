@@ -10,6 +10,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  printf("Ahmad ist dumm");
 }
 
 // put function definitions here:
