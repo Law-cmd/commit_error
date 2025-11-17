@@ -1,11 +1,11 @@
 #include <Arduino.h>
 
 // put function declarations here:
-int myFunction(int, float);
+int myFunction(float, float);
 
 void setup() {
   // put your setup code here, to run once:
-  int result = myFunction(4, 5);
+  int result = myFunction(1, 2);
 }
 
 void loop() {
@@ -13,6 +13,6 @@ void loop() {
 }
 
 // put function definitions here:
-int myFunction(int x, float y) {
+int myFunction(float x, float y) {
   return x + y;
 }
