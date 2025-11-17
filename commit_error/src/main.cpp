@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 // put function declarations here:
-int myFunction(float, int);
+int myFunction(float, float);
 
 void setup() {
   // put your setup code here, to run once:
@@ -9,10 +9,10 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  Serial.print("hallo ahmad");
 }
 
 // put function definitions here:
-int myFunction(float x, int y) {
-  return x + y;
+int myFunction(float x, float y) {
+  return x + y + 2;
 }
