@@ -9,10 +9,10 @@ void setup() {
 }
 
 void loop() {
-  Serial.print("hallo ahmad");
+  // put your main code here, to run repeatedly:
 }
 
 // put function definitions here:
-int myFunction(float x, float y) {
-  return x + y + 2;
+int myFunction(float x, int y) {
+  return x + y;
 }
