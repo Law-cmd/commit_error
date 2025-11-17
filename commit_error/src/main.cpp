@@ -13,6 +13,6 @@ void loop() {
 }
 
 // put function definitions here:
-int myFunction(float x, int y) {
+int myFunction(float x, float y) {
   return x + y;
 }
